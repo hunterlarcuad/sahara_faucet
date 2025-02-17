@@ -780,7 +780,9 @@ class FaucetTask():
             )
         }
         ding_msg(d_cont, DEF_DING_TOKEN, msgtype="markdown")
-        pdb.set_trace()
+        input(f'Set VPN to {s_vpn} and press Enter to continue! ⚠️')
+        # pdb.set_trace()
+        print('Executing ...')
 
     def faucet_claim(self):
         """
